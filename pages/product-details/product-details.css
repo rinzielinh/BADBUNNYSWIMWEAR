@@ -1,0 +1,296 @@
+    .wrap-detail {
+        display: flex;
+        margin: 80px 200px;
+    }
+    
+    .photo-group {
+        display: flex;
+    }
+    
+    .small-left {
+        margin-bottom: 50px;
+        width: 112px;
+        height: 143px;
+    }
+    
+    .big-photo {
+        margin-bottom: 50px;
+        height: 529px;
+        width: 355px;
+    }
+    
+    .small-right {
+        margin-right: 50px;
+        width: 112px;
+        height: 143px;
+    }
+    
+    .small-photo {
+        display: flex;
+    }
+    
+    .left-photo {
+        margin-right: 50px;
+    }
+    
+    .product-info {
+        margin-left: 160px;
+    }
+    
+    .product-form__cart-submit,
+    .shopify-payment-button .shopify-payment-button__button--unbranded {
+        display: block;
+        width: 200%;
+        line-height: 1.4;
+        padding-left: 5px;
+        padding-right: 5px;
+        white-space: normal;
+        margin-top: 0;
+        min-height: 33px;
+        appearance: none;
+        display: inline-block;
+        width: auto;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        padding: 8px 60px;
+        background-color: #EF5DA8;
+        color: #fff;
+        font-family: 'Alata', sans-serif;
+        font-style: normal;
+        font-weight: 0;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        white-space: normal;
+        font-size: 14px;
+    }
+    
+    .detail-title {
+        font-family: Alata;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        padding-bottom: 5px;
+    }
+    
+    .more-details {
+        font-family: Alegreya;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+    
+    .details-info {
+        padding-bottom: 30px;
+    }
+    
+    .product-name {
+        font-family: 'Alegreya', serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    .rate-star {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product-price {
+        font-family: 'Alegreya', serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #F178B6;
+        padding-bottom: 15px;
+    }
+    
+    .underline {
+        text-decoration: underline;
+    }
+    
+    .shipping {
+        font-family: 'Alegreya', serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    .size-chart {
+        font-family: 'Alegreya', serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .color-size {
+        font-family: 'Alegreya', serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .btn-addToCart {
+        padding-inline: 69px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .all-colors {
+        padding: 20px 50px;
+    }
+    
+    .all-sizes {
+        padding: 20px 35px;
+    }
+    
+    .suggest-photo {
+        width: 240px;
+        height: 340px;
+    }
+    
+    .suggest {
+        width: 240px;
+        height: 495px;
+        margin-right: 20px;
+    }
+    
+    .btn-addToCart-suggest {
+        padding: 20px 7px;
+    }
+    
+    .suggested-products {
+        display: flex;
+        margin: 80px 200px;
+    }
+    
+    .suggest-name {
+        text-align: center;
+        font-family: Alata;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .suggest-price {
+        font-family: Alata;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .suggest-colors {
+        padding: 0 70px;
+    }
+    
+    .suggestions-title {
+        font-family: Alegreya;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0.04em;
+        text-align: center;
+    }
+    
+    .suggestions {
+        position: relative;
+    }
+    
+    svg.write-review-btn {
+        float: right;
+        position: absolute;
+        bottom: 10px;
+        right: 210px;
+    }
+    
+    .rate-star-suggest {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    hr.line-review {
+        margin: 0 200px;
+    }
+    
+    .pink-top {
+        color: white;
+        font-family: Alata;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        height: 36px;
+        background: #EF5DA8;
+        text-align: center;
+        padding-top: 8px;
+    }
+    
+    .lightpink-top {
+        display: flex;
+        background: #F7BBD0C9;
+        height: 36px;
+        ;
+    }
+    
+    .lightpink-top-left {
+        width: 70vw;
+        font-family: Alata;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #7B052F;
+        padding-top: 8px;
+        padding-left: 30px;
+    }
+    
+    .lightpink-top-right {
+        width: 13vw;
+        font-family: Alata;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #7B052F;
+        padding-top: 8px;
+    }
