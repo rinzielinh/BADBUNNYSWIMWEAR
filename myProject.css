@@ -194,7 +194,16 @@
         width: 75%;
     }
     
-    .accesories {
-        background-image: url("./img/accesories.png");
-        margin: 0 200px;
+    .accessories {
+        margin: 0 10vw;
+        width: 80vw
+    }
+    
+    img.best-accessories {
+        width: 13vw;
+        margin: 0px 4%;
+    }
+    
+    .example-accessories {
+        margin: 0 10vw;
     }
