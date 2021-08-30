@@ -246,7 +246,7 @@ const showProduct = (product, idShow, name) => {
     let showItem = $(`#${idShow}`)
     product.forEach((item, index) => {
         showItem.append(`
-            <div onclick="setLocal('${index}, ${name}')"  class="col-md-4">
+            <div onclick="setLocal(${index}, ${name})"  class="col-md-4">
                 <img class="img-col-md-4" src="${item.img}" alt="">
                 <div class="4-triangle-colors">
                     <img class="triagle" src="${item.colors}" alt="">
