@@ -1,0 +1,113 @@
+.btn-addToCart-suggest {
+    padding: 20px 9%;
+}
+
+.product-form__cart-submit,
+.shopify-payment-button .shopify-payment-button__button--unbranded {
+    display: block;
+    width: 200%;
+    line-height: 1.4;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: normal;
+    margin-top: 0;
+    min-height: 33px;
+    appearance: none;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    padding: 8px 60px;
+    background-color: #EF5DA8;
+    color: #fff;
+    font-family: 'Alata', sans-serif;
+    font-style: normal;
+    font-weight: 0;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    white-space: normal;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.left-cart {
+    margin-bottom: 100px;
+}
+
+.top-left-cart {
+    display: flex;
+    height: 54px;
+    width: 90%;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-left-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+
+.first {
+    display: flex;
+    flex-grow: 3;
+}
+
+.first-none {
+    opacity: 0;
+}
+
+img {
+    width: 112px;
+}
+
+.following {
+    flex-grow: 1;
+}
+
+.right-cart {
+    border-top: 1px solid #ececec;
+}
+
+.table-cart {
+    width: 80%;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.total-price {
+    font-family: Alegreya;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.price {
+    font-family: Alegreya;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
