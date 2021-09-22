@@ -36,6 +36,10 @@ img.suggest-photo {
     font-size: 14px;
 }
 
+.suggest {
+    max-width: 273px;
+}
+
 .suggest-colors {
     padding: 0 70px;
 }
@@ -310,4 +314,35 @@ body{
     opacity: 1;
     box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
     color: black;
+}
+
+img.suggest-photos {
+    width: 100%;
+}
+
+.col-sm-9 {
+    flex-wrap: wrap;
+}
+
+div#productlist_item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 20px;
+    color: #EF5DA8;
+}
+
+.price_item {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .productlist {
+        margin-left: 25%;
+    }
+    .small-categories {
+        font-size: 20px;
+    }
 }

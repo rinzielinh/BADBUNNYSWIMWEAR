@@ -35,11 +35,11 @@
                 <div class="col-sm-3">
                     <div class="all-categories box-wrap">
                         <div class="big-categories hover-me">CATEGORY</div>
-                        <div class="small-categories box">All swim</div>
-                        <div class="small-categories box">Tops</div>
-                        <div class="small-categories box">Bottoms</div>
-                        <div class="small-categories box">One pieces</div>
-                        <div class="small-categories box">Beachwear</div>
+                        <div class="small-categories box" onclick="filterByBrandNew(0)">All swim</div>
+                        <div class="small-categories box" onclick="filterByBrandNew(1)">Tops</div>
+                        <div class="small-categories box" onclick="filterByBrandNew(2)">Bottoms</div>
+                        <div class="small-categories box" onclick="filterByBrandNew(3)">One pieces</div>
+                        <div class="small-categories box" onclick="filterByBrandNew(4)">Beachwear</div>
                     </div>
 
                     <div class="wrap-filter">
@@ -235,6 +235,26 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="filter-price">Price
+
+                            <div onclick="filterByPrice(1)" class="price_item">
+
+                                <p>Less than $100</p>
+                            </div>
+                            <div onclick="filterByPrice(2)" class="price_item">
+
+                                <p>$100 to $200</p>
+                            </div>
+                            <div onclick="filterByPrice(3)" class="price_item">
+
+                                <p>$200 - $500</p>
+                            </div>
+                            <div onclick="filterByPrice(4)" class="price_item">
+
+                                <p>Above $500</p>
+                            </div>
+                        </div>
+
                     </div>
 
 
@@ -243,8 +263,10 @@
 
 
                 <div class="col-sm-9">
-
                     <div class="row">
+                        <div class="productlist">
+                            <div id="productlist_item" class="productlist_item"></div>
+                        </div>
                         <div class="col-sm">
                             <div class="suggest">
                                 <div class="suggest-photo">
@@ -508,20 +530,6 @@
         </div>
     </div>
 
-
-
-    <div class="box-wrap">
-        <div class="box">
-            <p>box</p>
-        </div>
-        <div class="box">
-            <p>box</p>
-        </div>
-        <div class="box">
-            <p>box</p>
-        </div>
-    </div>
-
     <div id="component-footer">
     </div>
 
@@ -533,6 +541,7 @@
 
     <script src="../../component/header/header.js"></script>
     <script src="../../component/footer/footer.js"></script>
+    <script src="../../pages/all-products/all-products.js"></script>
 </body>
 
 </html>
