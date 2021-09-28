@@ -7,11 +7,11 @@ header.append(`
             </div>
             <div class="menu">
                 <ul class="wrap-menu">
-                    <li class="item-menu">NEW ARRIVALS</li>
-                    <li class="item-menu">BEACHWEAR</li>
-                    <li class="item-menu">ACCESSORIES</li>
+                    <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
+                    <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+                    <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">ACCESSORIES</a></li>
                     <li class="item-menu">FIT GUIDE</li>
-                    <li class="item-menu">SALE</li>
+                    <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
                 </ul>
             </div>
             <div class="search-userlogin">

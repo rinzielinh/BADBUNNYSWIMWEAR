@@ -2,6 +2,11 @@
     list-style: none;
 }
 
+a {
+    color: #EF5DA8 !important;
+    text-decoration: none;
+}
+
 #main-screen {
     margin: 0 auto;
 }
@@ -136,6 +141,12 @@ img.logo-img {
 div#nav-bar ul.wrap-menu li.item-menu:hover {
     cursor: pointer;
     color: #7BB0EF;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #7BB0EF !important;
+    text-decoration: none;
 }
 
 .mobile-search {
