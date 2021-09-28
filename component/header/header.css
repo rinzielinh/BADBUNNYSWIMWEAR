@@ -171,6 +171,7 @@ ul.wrap-ul {
     }
     ul.wrap-ul {
         display: block;
+        height: 100%;
     }
     ul.wrap-ul li.item-menu {
         padding: 5px 0px 5px 20px;
@@ -184,11 +185,34 @@ img.basket {
     padding-bottom: 56%;
 }
 
+@media only screen and (max-width: 992px) {
+    div#main-menu {
+        width: 40vw;
+        height: 100%;
+    }
+    ul.wrap-ul {
+        padding: 0 20%;
+    }
+    li.item-menu {
+        margin-top: 20%;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     .mobile-logo {
         width: auto;
         padding-left: 25%;
         padding-right: 25%;
+    }
+    li.item-menu {
+        margin-top: 20%;
+    }
+    div#main-menu {
+        width: 40vw;
+        height: 100%;
+    }
+    ul.wrap-ul {
+        padding: 0 20%;
     }
 }
 
@@ -198,23 +222,31 @@ img.basket {
         padding-right: 4%;
     }
     div#main-menu {
-        width: 40vw;
+        width: 60vw;
+        height: 100%;
     }
     .carousel-indicators {
         bottom: -30px !important;
     }
+    ul.wrap-ul {
+        padding: 0 15%;
+    }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     .mobile-logo {
         padding-left: 15%;
         padding-right: 6%;
     }
     div#main-menu {
         width: 60vw;
+        height: 100%;
     }
     .carousel-indicators {
         bottom: -25px !important;
+    }
+    ul.wrap-ul {
+        padding: 0 10%;
     }
 }
 
@@ -225,5 +257,9 @@ img.basket {
     }
     .carousel-indicators {
         bottom: -20px !important;
+    }
+    div#main-menu {
+        width: 60vw;
+        height: 100%;
     }
 }
