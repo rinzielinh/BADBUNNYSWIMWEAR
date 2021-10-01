@@ -3,7 +3,7 @@ let header = $('#header')
 header.append(`
 <div id="nav-bar" class="navBar">
             <div>
-                <img class="logo" src="../../icon/logo.jpg" alt="">
+            <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/myProject.html"><img class="logo" src="../../icon/logo.jpg" alt=""></a>
             </div>
             <div class="menu">
                 <ul class="wrap-menu">

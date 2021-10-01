@@ -103,7 +103,7 @@ div#mobile {
 
 .mobile-logo {
     padding-left: 30%;
-    padding-right: 30%;
+    padding-right: 25%;
 }
 
 .mobile-user {
@@ -162,6 +162,15 @@ ul.wrap-ul {
     padding: 0;
     margin: 0;
     padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    ul.wrap-menu {
+        padding-left: 50px;
+    }
+    .menu {
+        width: 70vw;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -242,12 +251,21 @@ img.basket {
     ul.wrap-ul {
         padding: 0 15%;
     }
+    .mobile-logo {
+        padding-left: 18%;
+        padding-right: 11%;
+    }
+    .left-mobile-icons {
+        display: flex;
+        align-items: center;
+        padding-left: 8%;
+    }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 442px) {
     .mobile-logo {
-        padding-left: 15%;
-        padding-right: 6%;
+        padding-left: 12%;
+        padding-right: 2%;
     }
     div#main-menu {
         width: 60vw;
@@ -259,12 +277,15 @@ img.basket {
     ul.wrap-ul {
         padding: 0 10%;
     }
+    img.logo-img {
+        width: 60%;
+    }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
     .mobile-logo {
-        padding-left: 18%;
-        padding-right: 6%;
+        padding-left: 10%;
+        padding-right: 0%;
     }
     .carousel-indicators {
         bottom: -20px !important;
@@ -272,5 +293,8 @@ img.basket {
     div#main-menu {
         width: 60vw;
         height: 100%;
+    }
+    img.logo-img {
+        width: 60%;
     }
 }

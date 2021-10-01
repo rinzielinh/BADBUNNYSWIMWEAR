@@ -3,15 +3,15 @@ let header = $('#header')
 header.append(`
 <div id="nav-bar" class="navBar">
             <div>
-                <img class="logo" src="./icon/logo.jpg" alt="">
+            <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/myProject.html"><img class="logo" src="./icon/logo.jpg" alt=""></a>
             </div>
             <div class="menu">
                 <ul class="wrap-menu">
-                    <li class="item-menu">NEW ARRIVALS</li>
-                    <li class="item-menu">BEACHWEAR</li>
-                    <li class="item-menu">ACCESSORIES</li>
-                    <li class="item-menu">FIT GUIDE</li>
-                    <li class="item-menu">SALE</li>
+                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
+                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">ACCESSORIES</a></li>
+                <li class="item-menu">FIT GUIDE</li>
+                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
                 </ul>
             </div>
             <div class="search-userlogin">
@@ -86,11 +86,11 @@ header.append(`
         </div>
         <div id="main-menu">
             <ul class="wrap-ul">
-                <li class="item-menu">NEW ARRIVALS</li>
-                <li class="item-menu">BEACHWEAR</li>
-                <li class="item-menu">ACCESSORIES</li>
-                <li class="item-menu">FIT GUIDE</li>
-                <li class="item-menu">SALE</li>
+            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
+            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">ACCESSORIES</a></li>
+            <li class="item-menu">FIT GUIDE</li>
+            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
             </ul>
         </div>
 `)
