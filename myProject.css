@@ -205,6 +205,7 @@
     }
     
     .example-accessories {
+        width: 100%;
         margin: 0 10vw;
         padding-bottom: 30px;
     }
@@ -392,4 +393,36 @@
     
     .bottom {
         padding: 2% 45%;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .collection-2021 {
+            font-size: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .show-all-collections {
+            font-size: 10px;
+            margin: 6% 25%;
+        }
+        img.all-collections-img {
+            width: 100%;
+            max-height: 116px;
+        }
+    }
+    
+    @media only screen and (max-width: 420px) {
+        .col.all-collections-left {
+            display: none;
+        }
+        .bottom {
+            padding: 4% 40%;
+        }
+        img.logo-bottom {
+            width: 100%;
+        }
+        .ship-title {
+            font-size: 16px;
+        }
     }
