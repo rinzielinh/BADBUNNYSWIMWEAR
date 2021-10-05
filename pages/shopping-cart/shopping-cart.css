@@ -1,5 +1,5 @@
     .btn-addToCart-suggest {
-        padding: 20px 3%;
+        padding: 20px 20%;
     }
     
     .btn-addToCart-proceed {
@@ -573,19 +573,20 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
         color: #EF5DA8;
     }
     
+    .look-wrap {
+        padding: 0 15%;
+        min-height: 357px;
+    }
+    
     @media only screen and (max-width: 1400px) {
         .btn-addToCart-proceed {
             padding: 20px 8%;
-        }
-        .product-form__cart-submit,
-        .shopify-payment-button .shopify-payment-button__button--unbranded {
-            padding: 8px 35px;
         }
     }
     
     @media only screen and (max-width: 1200px) {
         .btn-addToCart-proceed {
-            padding: 20px 8%;
+            padding: 20px 13%;
         }
         .product-form__cart-submit,
         .shopify-payment-button .shopify-payment-button__button--unbranded {
@@ -594,18 +595,9 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
     }
     
     @media only screen and (max-width: 1000px) {
-        .btn-addToCart-proceed {
-            padding: 20px 27%;
-        }
         .product-form__cart-submit,
         .shopify-payment-button .shopify-payment-button__button--unbranded {
             padding: 8px 70px;
-        }
-        .row.style-your-look {
-            display: none;
-        }
-        h3 {
-            display: none;
         }
         .row {
             display: block;
@@ -618,6 +610,45 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
         }
         .payment-method {
             margin-left: 26%;
+        }
+        .look-wrap {
+            padding: 0 25%;
+        }
+        .btn-addToCart-suggest {
+            padding: 20px 30%;
+        }
+        .btn-addToCart-proceed {
+            padding: 20px 27%;
+        }
+    }
+    
+    @media only screen and (max-width: 776px) {
+        .btn-addToCart-suggest {
+            padding: 20px 27%;
+        }
+        .product-form__cart-submit {
+            padding: 8px 20%;
+        }
+        .look-wrap {
+            min-height: 60px;
+        }
+        .btn-addToCart-proceed {
+            padding: 20px 16%;
+        }
+        .payment-method {
+            margin-left: 16%;
+        }
+    }
+    
+    @media only screen and (max-width: 450px) {
+        .btn-addToCart-suggest {
+            padding: 20px 20%;
+        }
+        .product-form__cart-submit {
+            padding: 8px 20%;
+        }
+        .btn-addToCart-proceed {
+            padding: 20px 11%;
         }
     }
     

@@ -2,6 +2,10 @@
     list-style: none;
 }
 
+ul {
+    cursor: pointer;
+}
+
 .footer {
     padding-left: 70px;
     padding-right: 70px;
@@ -14,6 +18,7 @@
 
 .social-media-icons {
     display: flex;
+    cursor: pointer;
 }
 
 .col-1-2-3 {
@@ -55,6 +60,11 @@ input.email-input {
     font-family: 'Alata', sans-serif;
     font-size: 23px;
     padding: 13px 0;
+    cursor: pointer;
+}
+
+.mb-4 {
+    cursor: pointer;
 }
 
 .facebook {

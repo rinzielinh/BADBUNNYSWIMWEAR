@@ -206,6 +206,7 @@ li.single-item {
     flex-grow: 1;
     text-align: center;
     line-height: 3;
+    cursor: pointer;
 }
 
 h3 {
@@ -218,8 +219,22 @@ h3 {
     text-transform: capitalize;
 }
 
+h4 {
+    font-family: 'Alata';
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 90px;
+    text-transform: capitalize;
+}
+
 .active {
     font-weight: 600 !important;
+}
+
+img.size-chart-img {
+    width: 100%;
 }
 
 

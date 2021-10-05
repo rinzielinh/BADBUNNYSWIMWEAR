@@ -1,5 +1,6 @@
 let footer = $('#component-footer')
-footer.append(`<div class="footer">
+footer.append(`
+<div class="footer">
 <div class="first-col col-1-2-3 ">
     <ul class="ul-footer">CUSTOMER CARE</ul>
     <ul>
@@ -9,10 +10,10 @@ footer.append(`<div class="footer">
         <li class="li-footer">Track My Order</li>
         <li class="li-footer">Caring for your bikini</li>
     </ul>
-</div class="ul-footer">
+</div >
 <div class="second-col col-1-2-3 ">
-    <ul class="gap">blank</ul>
-    <ul>
+    <ul class="gap ul-footer">blank</ul>
+    <ul >
         <li class="li-footer">Size guide</li>
         <li class="li-footer">Gift card</li>
         <li class="li-footer">Student Discount</li>
@@ -69,8 +70,8 @@ footer.append(`<div class="footer">
 
 </div>
 <div class="lower-footer">
-<div class="brand-name">BAD BUNNY SWIMWEAR</div>
-</div>
+<a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/myProject.html"><div class="brand-name">BAD BUNNY SWIMWEAR</div>
+</div></a>
 
 <footer id="small-footer" class="text-center text-white" style="background-color: #EF5DA8;">
 <div class="container p-4 pb-0">
