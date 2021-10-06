@@ -9,7 +9,7 @@ header.append(`
                 <ul class="wrap-menu">
                     <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
                     <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
-                    <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">ACCESSORIES</a></li>
+                    <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
                     <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
                     <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
                 </ul>
@@ -87,13 +87,13 @@ header.append(`
                 </svg></button>
         </div>
         <div id="main-menu">
-            <ul class="wrap-ul">
-                <li class="item-menu">NEW ARRIVALS</li>
-                <li class="item-menu">BEACHWEAR</li>
-                <li class="item-menu">ACCESSORIES</li>
-                <li class="item-menu">FIT GUIDE</li>
-                <li class="item-menu">SALE</li>
-            </ul>
+        <ul class="wrap-ul">
+        <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
+        <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+        <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
+        <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
+        <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
+        </ul>
         </div>
 `)
 
