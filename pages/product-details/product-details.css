@@ -316,8 +316,9 @@ hr.line-review {
 }
 
 .carousel-item {
-    width: 355px;
-    height: 529px;
+    max-width: 355px;
+    max-height: 529px;
+    min-width: 200px;
 }
 
 .carousel-inner {
@@ -376,6 +377,15 @@ hr.line-review {
 
 .row.suggestedCol {
     padding: 0 4vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .product-info {
+        margin-left: 30px;
+    }
+    .carousel-inner {
+        padding-left: 130px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
