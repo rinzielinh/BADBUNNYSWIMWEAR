@@ -7,11 +7,11 @@ header.append(`
             </div>
             <div class="menu">
                 <ul class="wrap-menu">
-                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
-                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
-                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
-                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
-                <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
                 </ul>
             </div>
             <div class="search-userlogin">
@@ -65,7 +65,7 @@ header.append(`
                 </div>
             </div>
             <div class="mobile-logo">
-                <img class="logo-img" src="./icon/logo.jpg" alt="">
+            <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/myProject.html"><img class="logo-img" src="./icon/logo.jpg" alt=""></a>
             </div>
             <div class="right-mobile-icons">
                 <div class="mobile-user">
@@ -74,8 +74,9 @@ header.append(`
                 </svg>
                 </div>
                 <div class="mobile-basket">
-                    <img class="basket" src="./icon/basket.png" alt="">
-
+                <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html">
+                <img class="basket" src="./icon/basket.png" alt="">
+                </a>
                 </div>
                 <div class="mobile-quantity">2</div>
             </div>
@@ -88,11 +89,11 @@ header.append(`
         </div>
         <div id="main-menu">
             <ul class="wrap-ul">
-            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
-            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
-            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
-            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
-            <li class="item-menu"><a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
             </ul>
         </div>
 `)
@@ -150,26 +151,73 @@ mobileSearch.click(() => {
 let products_popular = [{
         id: 1,
         img: './img/1.jpeg',
-        name: 'LEXI TOP & BOTTOM',
+        name: 'PUERTO RICO TOP',
         des: 'See more colors',
         colors: './icon/tri-set-1.svg',
-        newPrice: '$49.00'
+        price: '$49.00',
+        description: {
+            size: 'S',
+            color: 'Navy Blue',
+            svg: '#3F56A0',
+            sleek: 'The most basic top in the Bad Bunny collections, the Puerto Rico draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+            fabric: '96% Recycled Poly / 4% Spandex',
+            care: 'Click here for our care tips.',
+            sizing: ['Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+            features: ['Underwire cups.', 'Adjustable straps']
+        },
+        imgs: {
+            big: ['../../img/product-details/Puerto-Rico-Top5.jpeg', '../../img/product-details/Puerto-Rico-Top2.jpeg', '../../img/product-details/Puerto-Rico-Top3.jpeg', '../../img/product-details/Puerto-Rico-Top1.jpeg', '../../img/product-details/Puerto-Rico-Top4.jpeg'],
+            right: ['../../img/product-details/Puerto-Rico-Top5.jpeg', '../../img/product-details/Puerto-Rico-Top2.jpeg', '../../img/product-details/Puerto-Rico-Top3.jpeg', '../../img/product-details/Puerto-Rico-Top1.jpeg', '../../img/product-details/Puerto-Rico-Top4.jpeg']
+        }
     },
     {
         id: 2,
         img: './img/2.jpeg',
-        name: 'V-CUT TOP & BOTTOM',
+        name: 'CLOVELLY TOP',
         des: 'See more colors',
         colors: './icon/tri-set-2.svg',
-        newPrice: '$53.00'
+        price: '$53.00',
+        description: {
+            size: 'S',
+            color: 'Sky Blue',
+            svg: '#9CC6F7',
+            sleek: 'The most basic top in the Bad Bunny collections, the Clovelly top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+            fabric: '96% Recycled Poly / 4% Spandex',
+            care: 'Click here for our care tips.',
+            sizing: ['Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+            features: ['Underwire cups.', 'Adjustable straps']
+        },
+        imgs: {
+            big: ['../../img/product-details/Clovelly_Top1.jpeg', '../../img/product-details/Clovelly_Top2.jpeg', '../../img/product-details/Clovelly_Top3.jpeg', '../../img/product-details/Clovelly_Top4.jpeg', '../../img/product-details/Clovelly_Top5.jpeg'],
+            right: ['../../img/product-details/Clovelly_Top1.jpeg', '../../img/product-details/Clovelly_Top2.jpeg', '../../img/product-details/Clovelly_Top3.jpeg', '../../img/product-details/Clovelly_Top4.jpeg', '../../img/product-details/Clovelly_Top5.jpeg']
+        }
     },
     {
         id: 3,
-        img: './img/3.jpeg',
-        name: 'SANDRA TOP & BOTTOM',
+        img: './img/4.jpeg',
+        name: 'SICILY ONE PIECE',
         des: 'See more colors',
         colors: './icon/tri-set-3.svg',
-        newPrice: '$51.00'
+        price: '$51.00',
+        description: {
+            size: 'S',
+            color: 'Creme Wave',
+            svg: '#FDF5AA',
+            sleek: 'Chic and new, the Sicily One Piece has become one of our best-sellers. With an adjustable one-shoulder design, a rounded neckline and moderate coverage, this figure flattering one piece transitions from sand to seaside lunch in a snap. Not to mention, is guaranteed compliments with its slimming silhouette and buttery soft fabric.',
+            fabric: '96% Recycled Poly / 4% Spandex',
+            care: 'Click here for our care tips.',
+            sizing: ['Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+            features: ['Rounded neckline',
+                'Adjustable 1-shoulder strap',
+                'High leg',
+                'Low back',
+                'Moderate coverage bottom'
+            ]
+        },
+        imgs: {
+            big: ['../../img/product-details/Sicily-One-Piece-1.jpeg', '../../img/product-details/Sicily-One-Piece-2.jpeg', '../../img/product-details/Sicily-One-Piece-3.jpeg', '../../img/product-details/Sicily-One-Piece-4.jpeg', '../../img/product-details/Sicily-One-Piece-5.jpeg'],
+            right: ['../../img/product-details/Sicily-One-Piece-1.jpeg', '../../img/product-details/Sicily-One-Piece-2.jpeg', '../../img/product-details/Sicily-One-Piece-3.jpeg', '../../img/product-details/Sicily-One-Piece-4.jpeg', '../../img/product-details/Sicily-One-Piece-5.jpeg']
+        }
     }
 
 ]
@@ -177,67 +225,69 @@ let products_popular = [{
 let business_product = [{
         id: 1,
         img: './img/1.jpeg',
-        name: 'LEXI TOP & BOTTOM',
+        name: 'LEXI TOP',
         des: 'this is des',
-        colors: './icon/tri-set-1.svg',
+        colorSet: './icon/tri-set-1.svg',
         newPrice: '$49.00',
         price: '$49.00',
         description: {
-            Size: 'S',
-            Sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
-            Fabric: '96% Recycled Poly / 4% Spandex',
-            Care: 'Click here for our care tips.',
-            Sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
-            Features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
+            size: 'S',
+            color: 'Neon Pink',
+            sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+            fabric: '96% Recycled Poly / 4% Spandex',
+            care: 'Click here for our care tips.',
+            sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+            features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
         },
         imgs: {
-            left: ['./img/product-details/2.jpeg', './img/product-details/back.jpeg', './img/product-details/1.jpeg', './img/product-details/2.jpeg'],
-            big: ['./img/product-details/big.jpeg'],
-            right: ['./img/product-details/2g.png', './img/product-details/sample.jpeg']
+            big: ['../../img/product-details/2.jpeg', '../../img/product-details/back.jpeg', '../../img/product-details/1.jpeg', '../../img/product-details/big.jpeg', '../../img/product-details/realPic.jpeg'],
+            right: ['../../img/product-details/2.jpeg', '../../img/product-details/back.jpeg', '../../img/product-details/1.jpeg', '../../img/product-details/big.jpeg', '../../img/product-details/realPic.jpeg']
         }
     },
     {
-        id: 1,
+        id: 2,
         img: './img/1.jpeg',
-        name: 'LEXI TOP & BOTTOM',
+        name: 'V-CUT BOTTOM',
         des: 'this is des',
-        colors: './icon/tri-set-1.svg',
+        oldPrice: './icon/tri-set-1.svg',
         newPrice: '$49.00',
         price: '$49.00',
         description: {
-            Size: 'S',
-            Sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
-            Fabric: '96% Recycled Poly / 4% Spandex',
-            Care: 'Click here for our care tips.',
-            Sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
-            Features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
+            size: 'S',
+            color: 'Neon Pink',
+            sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+            fabric: '96% Recycled Poly / 4% Spandex',
+            care: 'Click here for our care tips.',
+            sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+            features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
         },
         imgs: {
-            left: ['./img/product-details/2.jpeg', './img/product-details/back.jpeg', './img/product-details/1.jpeg', './img/product-details/2.jpeg'],
-            big: ['./img/product-details/big.jpeg'],
-            right: ['./img/product-details/2g.png', './img/product-details/sample.jpeg']
+
+            big: ['../../img/product-details/2.jpeg', '../../img/product-details/back.jpeg', '../../img/product-details/1.jpeg', '../../img/product-details/big.jpeg', '../../img/product-details/realPic.jpeg'],
+            right: ['../../img/product-details/2.jpeg', '../../img/product-details/back.jpeg', '../../img/product-details/1.jpeg', '../../img/product-details/big.jpeg', '../../img/product-details/realPic.jpeg']
         }
     },
     {
-        id: 1,
+        id: 3,
         img: './img/1.jpeg',
-        name: 'LEXI TOP & BOTTOM',
+        name: 'SANDRA TOP',
         des: 'this is des',
-        colors: './icon/tri-set-1.svg',
+        oldPrice: './icon/tri-set-1.svg',
         newPrice: '$49.00',
         price: '$49.00',
         description: {
-            Size: 'S',
-            Sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
-            Fabric: '96% Recycled Poly / 4% Spandex',
-            Care: 'Click here for our care tips.',
-            Sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
-            Features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
+            size: 'S',
+            color: 'Neon Pink',
+            sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+            fabric: '96% Recycled Poly / 4% Spandex',
+            care: 'Click here for our care tips.',
+            sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+            features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
         },
         imgs: {
-            left: ['./img/product-details/2.jpeg', './img/product-details/back.jpeg', './img/product-details/1.jpeg', './img/product-details/2.jpeg'],
-            big: ['./img/product-details/big.jpeg'],
-            right: ['./img/product-details/2g.png', './img/product-details/sample.jpeg']
+
+            big: ['../../img/product-details/2.jpeg', '../../img/product-details/back.jpeg', '../../img/product-details/1.jpeg', '../../img/product-details/big.jpeg', '../../img/product-details/realPic.jpeg'],
+            right: ['../../img/product-details/2.jpeg', '../../img/product-details/back.jpeg', '../../img/product-details/1.jpeg', '../../img/product-details/big.jpeg', '../../img/product-details/realPic.jpeg']
         }
     }
 ]
@@ -302,7 +352,7 @@ showProduct(products_popular, 'show-item-1', 'products_popular')
 const setLocal = (index, product) => {
     let item = product[index]
     localStorage.setItem('detail-data', JSON.stringify(item))
-    location.replace('file:///Users/rinzielinh/Documents/TechMaster/presentationProject/myProject/pages/product-details/product-details.html')
+    location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/product-details/product-details-copy.html')
 }
 
 

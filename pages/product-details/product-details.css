@@ -155,7 +155,7 @@
 }
 
 .btn-addToCart {
-    padding-inline: 69px;
+    padding-inline: 15%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -186,7 +186,7 @@
 
 .suggested-products {
     display: flex;
-    margin: 80px 200px;
+    margin: 80px 10%;
 }
 
 .suggest-name {
