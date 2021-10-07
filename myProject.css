@@ -86,6 +86,7 @@
     }
     
     .see-more-colors {
+        cursor: pointer;
         font-family: Alata;
         font-size: 12px;
         font-style: normal;
@@ -96,6 +97,7 @@
     }
     
     .p-name {
+        cursor: pointer;
         font-family: Alata;
         font-size: 14px;
         font-style: normal;
@@ -105,6 +107,7 @@
     }
     
     .p-price {
+        cursor: pointer;
         font-family: Alata;
         font-size: 12px;
         font-style: normal;
@@ -180,6 +183,7 @@
         width: 70%;
         margin-bottom: 10px;
         margin-top: 40px;
+        cursor: pointer;
     }
     
     .row.summer-collection {

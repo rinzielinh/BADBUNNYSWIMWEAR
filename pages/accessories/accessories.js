@@ -253,7 +253,6 @@ const renderList = (list) => {
 };
 
 const filterList = (list) => {
-    console.log(`list`, list)
     let els = renderList(list);
     list_item.html("");
 

@@ -181,7 +181,7 @@ let products_popular = [{
             size: 'S',
             color: 'Sky Blue',
             svg: '#9CC6F7',
-            sleek: 'The most basic top in the Bad Bunny collections, the Clovelly top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+            sleek: 'Our most popular style for its flattering in the Bad Bunny collections, supportive underwire top featuring a deep V front, signature soft crinkle fabric, this versatile swim top is fully adjustable giving you the best fit possible.',
             fabric: '96% Recycled Poly / 4% Spandex',
             care: 'Click here for our care tips.',
             sizing: ['Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
@@ -305,7 +305,7 @@ const showProduct = (product, idShow, name) => {
                 </div>                       
                 <div class="see-more-colors">See more colors</div>
                 <div class="p-name">${item.name}</div>
-                <div class="p-price">${item.newPrice}</div>
+                <div class="p-price">${item.price}</div>
             </div>
                     </div> `)
     })
