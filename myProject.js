@@ -7,11 +7,11 @@ header.append(`
             </div>
             <div class="menu">
                 <ul class="wrap-menu">
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/pastel.html">NEW ARRIVALS</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/beachwear.html">BEACHWEAR</a></li>
                 <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
                 <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
+                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/Jaguar.html">SALE</a></li>
                 </ul>
             </div>
             <div class="search-userlogin">
@@ -89,11 +89,11 @@ header.append(`
         </div>
         <div id="main-menu">
             <ul class="wrap-ul">
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">NEW ARRIVALS</a></li>
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">BEACHWEAR</a></li>
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
-                <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">SALE</a></li>
+            <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/pastel.html">NEW ARRIVALS</a></li>
+            <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/beachwear.html">BEACHWEAR</a></li>
+            <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/accessories/accessories.html">ACCESSORIES</a></li>
+            <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/fit-guide/fit-guide.html">FIT GUIDE</a></li>
+            <li class="item-menu"><a class="pink-menu" href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/Jaguar.html">SALE</a></li>
             </ul>
         </div>
 `)
