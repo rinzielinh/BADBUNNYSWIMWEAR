@@ -439,10 +439,6 @@ Side note: I know that this style of nesting in SASS doesn't result in the most 
         color: #fff;
         border-radius: 3px;
     }
-    
-    .product .remove-product:hover {
-        background-color: #EF5DA8;
-    }
     /* Totals section */
     
     .totals .totals-item {

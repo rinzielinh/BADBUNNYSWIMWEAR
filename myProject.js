@@ -78,7 +78,7 @@ header.append(`
                 <img class="basket" src="./icon/basket.png" alt="">
                 </a>
                 </div>
-                <div class="mobile-quantity">2</div>
+                <div class="mobile-quantity">0</div>
             </div>
         </div>
         <div id="search-input" class="input-group mb-3 ">

@@ -3,8 +3,11 @@ const checkActive = (event) => {
     $('.all-colors svg circle').removeClass('active-icon')
     $(event.target).next().addClass('active-icon')
 }
+let quantity = 0;
 const moveToCart = () => {
-        location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
+        quantity++;
+        $('.quantity').text(quantity)
+            // location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
     }
     // let default_data = {
     //     id: 1,

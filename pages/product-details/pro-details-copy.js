@@ -3,17 +3,18 @@ const checkActive = (event) => {
     $('.all-colors svg circle').removeClass('active-icon')
     $(event.target).next().addClass('active-icon')
 }
-
+let quantity = 0;
 let default_data = {
     id: 1,
     img: './img/1.jpeg',
     name: 'LEXI TOP & BOTTOM',
     des: 'this is des',
     colorSet: './icon/tri-set-1.svg',
-    newPrice: '$49.00',
-    price: '$49.00',
+    newPrice: '49.00',
+    price: '49.00',
     description: {
         size: 'S',
+        svg: '#FF8CDF',
         color: 'Neon Pink',
         sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
         fabric: '96% Recycled Poly / 4% Spandex',
@@ -109,7 +110,7 @@ wrap_detail.append(`
                 <div class="col col-lg-6">
                     <div class="product-info">
                         <div class="product-name">${data_detail.name}</div>
-                        <div class="product-price">${data_detail.price}</div>
+                        <div class="product-price">$${data_detail.price}</div>
                         <div class="rate-star">
                             <div class="star">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -234,5 +235,7 @@ wrap_detail.append(`
 `)
 
 const moveToCart = () => {
-    location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
+    quantity++;
+    $('.quantity').text(quantity)
+        // location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
 }

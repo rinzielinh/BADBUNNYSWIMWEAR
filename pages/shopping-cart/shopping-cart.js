@@ -13,7 +13,7 @@ addProducts.append(`
 </div>
 <div class="product-price price-size">${data_detail.price}</div>
 <div class="product-quantity">
-    <input type="number" value="2" min="1">
+    <input type="number" value="1" min="1">
 </div>
 <div class="product-removal">
     <button class="remove-product">

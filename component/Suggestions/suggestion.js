@@ -1,3 +1,4 @@
+let quantity = 0;
 let suggestions = $('#suggestions')
 suggestions.append(`
 <div class="suggestions">
@@ -19,7 +20,7 @@ suggestions.append(`
                         <path d="M30 20L38.6603 35H21.3397L30 20Z" fill="#F5542C"/>
                         </svg>
                 </div>
-                <div class="btn-addToCart-suggest">
+                <div class="btn-addToCart-suggest onclick="moveToCart()"">
                     <button type="submit" name="add" aria-label="Add to cart" class="btn atc-button product-form__cart-submit" data-add-to-cart="" ecl="true">
                     <span data-add-to-cart-text="" ecl="true">ADD TO CART</span>
                     <span class="hide" data-loader="" ecl="true">
@@ -45,7 +46,7 @@ suggestions.append(`
                         <path d="M30 20L38.6603 35H21.3397L30 20Z" fill="#F5542C"/>
                         </svg>
                 </div>
-                <div class="btn-addToCart-suggest">
+                <div class="btn-addToCart-suggest" onclick="moveToCart()">
                     <button type="submit" name="add" aria-label="Add to cart" class="btn atc-button product-form__cart-submit" data-add-to-cart="" ecl="true">
                     <span data-add-to-cart-text="" ecl="true">ADD TO CART</span>
                     <span class="hide" data-loader="" ecl="true">
@@ -71,7 +72,7 @@ suggestions.append(`
                         <path d="M30 20L38.6603 35H21.3397L30 20Z" fill="#F5542C"/>
                         </svg>
                 </div>
-                <div class="btn-addToCart-suggest">
+                <div class="btn-addToCart-suggest onclick="moveToCart()"">
                     <button type="submit" name="add" aria-label="Add to cart" class="btn atc-button product-form__cart-submit" data-add-to-cart="" ecl="true">
                     <span data-add-to-cart-text="" ecl="true">ADD TO CART</span>
                     <span class="hide" data-loader="" ecl="true">
@@ -97,7 +98,7 @@ suggestions.append(`
                         <path d="M30 20L38.6603 35H21.3397L30 20Z" fill="#F5542C"/>
                         </svg>
                 </div>
-                <div class="btn-addToCart-suggest">
+                <div class="btn-addToCart-suggest onclick="moveToCart()"">
                     <button type="submit" name="add" aria-label="Add to cart" class="btn atc-button product-form__cart-submit" data-add-to-cart="" ecl="true">
                     <span data-add-to-cart-text="" ecl="true">ADD TO CART</span>
                     <span class="hide" data-loader="" ecl="true">
@@ -109,3 +110,9 @@ suggestions.append(`
         </div>
     </div>
 `)
+
+const moveToCart = () => {
+    quantity++;
+    $('.quantity').text(quantity)
+        // location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
+}
