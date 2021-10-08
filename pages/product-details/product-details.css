@@ -408,6 +408,9 @@ hr.line-review {
     .row.suggestedCol {
         padding: 0 40vw;
     }
+    svg.write-review-btn {
+        bottom: 4%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -430,6 +433,12 @@ hr.line-review {
     .row.suggestedCol {
         padding: 20vw;
     }
+    svg.write-review-btn {
+        bottom: 6%;
+    }
+    .upper-footer-logo {
+        padding: 20px 42%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -450,6 +459,13 @@ hr.line-review {
         width: unset;
     }
     .row.suggestedCol {
-        padding: 20vw;
+        padding: 0 16vw;
+    }
+    svg.write-review-btn {
+        bottom: 4%;
+        right: 20%;
+    }
+    .upper-footer-logo {
+        padding: 20px 37%;
     }
 }
