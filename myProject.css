@@ -412,7 +412,7 @@
         }
         img.all-collections-img {
             width: 100%;
-            max-height: 116px;
+            max-height: 125px;
         }
     }
     
@@ -428,5 +428,9 @@
         }
         .ship-title {
             font-size: 16px;
+        }
+        .all-collections-title {
+            font-size: 22px;
+            min-height: 90px;
         }
     }

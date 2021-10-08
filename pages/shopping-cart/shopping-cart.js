@@ -27,9 +27,6 @@ addProducts.append(`
 `)
 
 
-debugger
-
-
 
 
 /* Set rates + misc */
