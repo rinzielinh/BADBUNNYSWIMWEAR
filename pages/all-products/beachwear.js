@@ -2,7 +2,7 @@ let list_item = $("#productlist_item");
 const paging_dom = $('#paging')
 let list_Product = [{
         img: "../../img/all-product-page/beachwear/bwear1.jpeg",
-        title: "Isla One pieces",
+        title: "Isla",
         des: "Professional",
         price: 100,
         isNew: true,
@@ -12,7 +12,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear2.jpeg",
-        title: "Hanalei One pieces",
+        title: "Hanalei",
         des: "Brazilian coverage",
         price: 80,
         isNew: false,
@@ -22,7 +22,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear3.jpeg",
-        title: "Bahamas One pieces",
+        title: "Bahamas",
         des: "White Sand Crinkle",
         price: 890,
         isNew: true,
@@ -32,7 +32,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear4.jpeg",
-        title: "Tango One pieces",
+        title: "Tango",
         des: "White Crinkle Linen",
         price: 750,
         isNew: true,
@@ -42,7 +42,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear5.jpeg",
-        title: "Isla One pieces",
+        title: "Isla",
         des: "Navy Rib",
         price: 380,
         isNew: false,
@@ -52,7 +52,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear6.jpeg",
-        title: "Tango One pieces",
+        title: "Tango",
         price: 270,
         isNew: true,
         saleOff: true,
@@ -61,7 +61,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear7.jpeg",
-        title: "Lucas One Piece",
+        title: "Persimmon",
         des: "Persimmon Jacquard",
         price: 300,
         isNew: false,
@@ -71,7 +71,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear8.jpeg",
-        title: "Cabo San One pieces",
+        title: "Cabo San",
         des: "Persimmon Jacquard",
         price: 190,
         isNew: false,
@@ -81,7 +81,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear9.jpeg",
-        title: "Cabo San One pieces",
+        title: "Cabo San",
         des: "Persimmon Jacquard",
         price: 190,
         isNew: false,
@@ -91,7 +91,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear10.jpeg",
-        title: "Amelia One pieces",
+        title: "Amelia",
         des: "White Crinkle Linen",
         price: 75,
         isNew: true,
@@ -101,7 +101,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear11.jpeg",
-        title: "Amelia short",
+        title: "Jacquard",
         des: "White Crinkle Linen",
         price: 75,
         isNew: true,
@@ -111,7 +111,7 @@ let list_Product = [{
     },
     {
         img: "../../img/all-product-page/beachwear/bwear12.jpeg",
-        title: "Ami One pieces",
+        title: "Ami",
         des: "White Crinkle Linen",
         price: 75,
         isNew: true,
