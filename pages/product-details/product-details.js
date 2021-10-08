@@ -3,29 +3,31 @@ const checkActive = (event) => {
     $('.all-colors svg circle').removeClass('active-icon')
     $(event.target).next().addClass('active-icon')
 }
-
-// let default_data = {
-//     id: 1,
-//     img: './img/1.jpeg',
-//     name: 'LEXI TOP & BOTTOM',
-//     des: 'this is des',
-//     oldPrice: './icon/tri-set-1.svg',
-//     newPrice: '$49.00',
-//     price: '$49.00',
-//     description: {
-//         Size: 'S',
-//         Sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
-//         Fabric: '96% Recycled Poly / 4% Spandex',
-//         Care: 'Click here for our care tips.',
-//         Sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
-//         Features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
-//     },
-//     imgs: {
-//         left: ['./img/product-details/2.jpeg', './img/product-details/back.jpeg', './img/product-details/1.jpeg', './img/product-details/2.jpeg'],
-//         big: ['./img/product-details/big.jpeg'],
-//         right: ['./img/product-details/2g.png', './img/product-details/sample.jpeg']
-//     }
-// }
+const moveToCart = () => {
+        location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
+    }
+    // let default_data = {
+    //     id: 1,
+    //     img: './img/1.jpeg',
+    //     name: 'LEXI TOP & BOTTOM',
+    //     des: 'this is des',
+    //     oldPrice: './icon/tri-set-1.svg',
+    //     newPrice: '$49.00',
+    //     price: '$49.00',
+    //     description: {
+    //         Size: 'S',
+    //         Sleek: 'The second underwire top in the Monday Swimwear collection, the Maui Top draws attention with its cleavage enhancing demi-cups perfected by delicate shoulder straps and gold sliders. This top is adjustable around the bust with a soft, simple back tie so it supports you, comfortably, in all the right places.',
+    //         Fabric: '96% Recycled Poly / 4% Spandex',
+    //         Care: 'Click here for our care tips.',
+    //         Sizing: ['Tash is a 34D and is wearing a size M.', 'Devin is a 32E and is wearing a size L.', 'Sammy is a 32C and is wearing a size S.'],
+    //         Features: ['V front detail', 'Underwire cups.', 'Adjustable straps and back tie closure with gold hardware details']
+    //     },
+    //     imgs: {
+    //         left: ['./img/product-details/2.jpeg', './img/product-details/back.jpeg', './img/product-details/1.jpeg', './img/product-details/2.jpeg'],
+    //         big: ['./img/product-details/big.jpeg'],
+    //         right: ['./img/product-details/2g.png', './img/product-details/sample.jpeg']
+    //     }
+    // }
 
 // let data_detail = JSON.parse(localStorage.getItem('detail-data')) || default_data
 // let wrap_detail = $('#wrap-detail')

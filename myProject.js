@@ -154,7 +154,7 @@ let products_popular = [{
         name: 'PUERTO RICO TOP',
         des: 'See more colors',
         colors: './icon/tri-set-1.svg',
-        price: '$49.00',
+        price: '49.00',
         description: {
             size: 'S',
             color: 'Navy Blue',
@@ -176,7 +176,7 @@ let products_popular = [{
         name: 'CLOVELLY TOP',
         des: 'See more colors',
         colors: './icon/tri-set-2.svg',
-        price: '$53.00',
+        price: '53.00',
         description: {
             size: 'S',
             color: 'Sky Blue',
@@ -198,7 +198,7 @@ let products_popular = [{
         name: 'SICILY ONE PIECE',
         des: 'See more colors',
         colors: './icon/tri-set-3.svg',
-        price: '$51.00',
+        price: '51.00',
         description: {
             size: 'S',
             color: 'Creme Wave',
@@ -228,8 +228,8 @@ let business_product = [{
         name: 'LEXI TOP',
         des: 'this is des',
         colorSet: './icon/tri-set-1.svg',
-        newPrice: '$49.00',
-        price: '$49.00',
+        newPrice: '49.00',
+        price: '49.00',
         description: {
             size: 'S',
             color: 'Neon Pink',
@@ -250,8 +250,8 @@ let business_product = [{
         name: 'V-CUT BOTTOM',
         des: 'this is des',
         oldPrice: './icon/tri-set-1.svg',
-        newPrice: '$49.00',
-        price: '$49.00',
+        newPrice: '49.00',
+        price: '49.00',
         description: {
             size: 'S',
             color: 'Neon Pink',
@@ -273,8 +273,8 @@ let business_product = [{
         name: 'SANDRA TOP',
         des: 'this is des',
         oldPrice: './icon/tri-set-1.svg',
-        newPrice: '$49.00',
-        price: '$49.00',
+        newPrice: '49.00',
+        price: '49.00',
         description: {
             size: 'S',
             color: 'Neon Pink',
