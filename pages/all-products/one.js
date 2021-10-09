@@ -140,7 +140,9 @@ const renderList = (list) => {
       <div class="col-sm">
       <div class="suggest">
           <div class="suggest-photo">
+          <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/product-details/product-details.html">
               <img class="suggest-photos" src="${item.img}" alt="">
+              </a>
           </div>
           <div class="suggest-name">${item.title}</div>
           
@@ -174,7 +176,7 @@ const moveToCart = () => {
     location.replace('https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/shopping-cart/shopping-cart.html')
 }
 const filterList = (list) => {
-    console.log(`list`, list)
+
     let els = renderList(list);
     list_item.html("");
 

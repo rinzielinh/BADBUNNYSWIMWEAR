@@ -322,12 +322,18 @@ const showTitle = (title, idShow) => {
                 <div class="row summer-collection">
                     <div class="col-6">
                         <div>
+                        <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">
                             <img class="img-col-6" src="./img/New_Never_Enought_Neon_Box_B_800x.jpeg" alt="">
+                        </a>
+
                         </div>
                     </div>
                     <div class="col-6">
                         <div>
+                        <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/all-products/all-products.html">
                             <img class="img-col-6" src="./img/New_Bright_Box_C_800x.jpeg" alt="">
+                        </a>
+
                         </div>
                     </div>
                 </div>
