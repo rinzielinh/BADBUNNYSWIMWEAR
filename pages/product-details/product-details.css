@@ -394,6 +394,7 @@ hr.line-review {
 
 @media only screen and (max-width: 992px) {
     .product-info {
+        margin-top: 10%;
         margin-left: 0;
     }
     .suggested-products {
@@ -471,5 +472,17 @@ hr.line-review {
     }
     .upper-footer-logo {
         padding: 20px 37%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .btn-addToCart {
+        padding-inline: 5%;
+    }
+    .row.suggestedCol {
+        padding: 0 7vw;
+    }
+    .upper-footer-logo {
+        padding: 11px 30%;
     }
 }

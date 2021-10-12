@@ -519,9 +519,6 @@ button.apply.button.button5 {
     input#to_price {
         width: 60%;
     }
-    .col-sm {
-        margin: 10px 15%;
-    }
     button.apply.button.button5 {
         margin-left: 30%;
     }
@@ -535,9 +532,6 @@ button.apply.button.button5 {
     .btn-addToCart-suggest {
         padding: 10px 20%;
     }
-}
-
-@media only screen and (max-width: 577px) {
     .col-sm {
         margin: 10px 12%;
         max-width: 273px !important;
@@ -556,6 +550,15 @@ button.apply.button.button5 {
     }
 }
 
+@media only screen and (max-width: 461px) {
+    .btn-addToCart-suggest {
+        padding: 10px 11%;
+    }
+    .product-form__cart-submit {
+        padding: 2px 22%;
+    }
+}
+
 @media only screen and (max-width: 321px) {
     .btn-addToCart-suggest {
         padding: 10px 7%;
@@ -568,5 +571,14 @@ button.apply.button.button5 {
     }
     .suggest-price {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .btn-addToCart-suggest {
+        padding: 10px 5%;
+    }
+    .product-form__cart-submit {
+        padding: 2px 20%;
     }
 }
