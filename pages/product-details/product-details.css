@@ -159,7 +159,7 @@ body {
 }
 
 .btn-addToCart {
-    padding-inline: 15%;
+    padding-inline: 8%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -383,6 +383,12 @@ hr.line-review {
     padding: 0 4vw;
 }
 
+@media only screen and (max-width: 1448px) {
+    .product-info {
+        margin-left: 10%;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .product-info {
         margin-left: 30px;
@@ -398,7 +404,7 @@ hr.line-review {
         margin-left: 0;
     }
     .suggested-products {
-        margin: 80px 0px;
+        margin: 30px 0px;
     }
     .wrap-detail {
         display: flex;
@@ -416,6 +422,9 @@ hr.line-review {
     svg.write-review-btn {
         bottom: 4%;
     }
+    .btn-addToCart {
+        padding-inline: 6%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -424,7 +433,7 @@ hr.line-review {
         margin: 60px 5vw
     }
     .row.suggestedCol {
-        padding: 20vw;
+        padding: 0 27vw;
     }
 }
 
@@ -477,10 +486,10 @@ hr.line-review {
 
 @media only screen and (max-width: 400px) {
     .btn-addToCart {
-        padding-inline: 5%;
+        padding-inline: 9%;
     }
     .row.suggestedCol {
-        padding: 0 7vw;
+        padding: 0 18vw;
     }
     .upper-footer-logo {
         padding: 11px 30%;

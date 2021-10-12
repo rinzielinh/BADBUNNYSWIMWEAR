@@ -113,7 +113,7 @@ let list_Product = [{
         img: "../../img/accessories/accessories11.jpeg",
         title: "Bath kit",
         des: "White Crinkle Linen",
-        price: 10,
+        price: 9,
         isNew: true,
         saleOff: true,
         like_new: false,
@@ -123,7 +123,7 @@ let list_Product = [{
         img: "../../img/accessories/accessories15.jpeg",
         title: "Nail slipper",
         des: "White Crinkle Linen",
-        price: 75,
+        price: 35,
         isNew: true,
         saleOff: true,
         like_new: false,
@@ -143,7 +143,7 @@ let list_Product = [{
         img: "../../img/accessories/accessories7.jpeg",
         title: "Short Hat",
         des: "White Crinkle Linen",
-        price: 75,
+        price: 45,
         isNew: true,
         saleOff: true,
         like_new: false,
@@ -163,7 +163,7 @@ let list_Product = [{
         img: "../../img/accessories/accessories20.jpeg",
         title: "Beach kit fullset",
         des: "White Crinkle Linen",
-        price: 75,
+        price: 85,
         isNew: true,
         saleOff: true,
         like_new: false,
@@ -173,7 +173,7 @@ let list_Product = [{
         img: "../../img/accessories/accessories21.jpeg",
         title: "Brush",
         des: "White Crinkle Linen",
-        price: 75,
+        price: 5,
         isNew: true,
         saleOff: true,
         like_new: false,
@@ -267,53 +267,53 @@ filterList(list_Product);
 const handleFilterByPrice = (data, order) => {
     let newData;
     if (order === 1) {
-        // filter price nho hon 10 trieu
+
         newData = data.filter((item) => {
-            return item.price < 100;
+            return item.price < 10;
         });
     }
     if (order === 2) {
-        // filter price tu 10 - 20 trieu
+
         newData = data.filter((item) => {
-            return item.price >= 100 && item.price <= 200;
+            return item.price >= 10 && item.price <= 50;
         });
     }
     if (order === 3) {
-        // filter price tu 20 - 50 trieu
+
         newData = data.filter((item) => {
-            return item.price >= 200 && item.price <= 500;
+            return item.price >= 50 && item.price <= 100;
         });
     }
     if (order === 4) {
-        // filter price hon 50 trieu
+
         newData = data.filter((item) => {
-            return item.price > 500;
+            return item.price > 100;
         });
     }
     return newData;
 };
 
 
-const handleFilterByNew = (data, order) => {
-    // xu ly filter by new
-    let newData;
-    if (order === 1) {
-        newData = data.filter((item) => {
-            return item.isNew;
-        });
-    }
-    if (order === 2) {
-        newData = data.filter((item) => {
-            return item.saleOff;
-        });
-    }
-    if (order === 3) {
-        newData = data.filter((item) => {
-            return item.like_new;
-        });
-    }
-    return newData;
-};
+// const handleFilterByNew = (data, order) => {
+//     // xu ly filter by new
+//     let newData;
+//     if (order === 1) {
+//         newData = data.filter((item) => {
+//             return item.isNew;
+//         });
+//     }
+//     if (order === 2) {
+//         newData = data.filter((item) => {
+//             return item.saleOff;
+//         });
+//     }
+//     if (order === 3) {
+//         newData = data.filter((item) => {
+//             return item.like_new;
+//         });
+//     }
+//     return newData;
+// };
 
 
 

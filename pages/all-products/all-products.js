@@ -250,7 +250,9 @@ const renderList = (list) => {
       <div class="col-sm">
       <div class="suggest">
           <div class="suggest-photo">
+          <a href="https://rinzielinh.github.io/BADBUNNYSWIMWEAR/pages/product-details/product-details.html">
               <img class="suggest-photos" src="${item.img}" alt="">
+              </a>
           </div>
           <div class="suggest-name">${item.title}</div>
           
@@ -262,8 +264,8 @@ const renderList = (list) => {
                       <path d="M50 0L58.6603 15H41.3397L50 0Z" fill="#F4BFBF"/>
                       <path d="M70 0L78.6603 15H61.3397L70 0Z" fill="#D5CBFE"/>
                       <path d="M90 0L98.6603 15H81.3397L90 0Z" fill="#FDF5AA"/>
-                      <path d="M10 20L18.6603 35H1.33975L10 20Z" fill="#F5542C"/>
-                      <path d="M30 20L38.6603 35H21.3397L30 20Z" fill="#F5542C"/>
+                      <path d="M10 20L18.6603 35H1.33975L10 20Z" fill="#C88D7A"/>
+                      <path d="M30 20L38.6603 35H21.3397L30 20Z" fill="#000000"/>
                       </svg>
           </div>
           <div class="btn-addToCart-suggest" onclick="moveToCart()">
@@ -285,7 +287,7 @@ const moveToCart = () => {
 }
 
 const filterList = (list) => {
-    console.log(`list`, list)
+
     let els = renderList(list);
     list_item.html("");
 
