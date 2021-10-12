@@ -1,3 +1,7 @@
+body {
+    font-size: 1.45rem !important;
+}
+
 .accordion {
     display: none;
 }

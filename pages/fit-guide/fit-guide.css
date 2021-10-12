@@ -1,3 +1,7 @@
+body {
+    font-size: 1.45rem !important;
+}
+
 .wrap-detail {
     display: flex;
     margin: 80px 200px;
