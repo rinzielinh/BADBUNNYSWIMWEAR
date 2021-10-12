@@ -16,10 +16,17 @@ header.append(`
             </div>
             <div class="search-userlogin">
                 <div id="search-icon" class="search-icon">
-                    <svg width="23" height="23" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12.0833 3.33335C7.25083 3.33335 3.33332 7.25086 3.33332 12.0834C3.33332 16.9158 7.25083 20.8334 12.0833 20.8334C16.9158 20.8334 20.8333 16.9158 20.8333 12.0834C20.8333 7.25086 16.9158 3.33335 12.0833 3.33335ZM0.416656 12.0834C0.416656 5.64003 5.64 0.416687 12.0833 0.416687C18.5266 0.416687 23.75 5.64003 23.75 12.0834C23.75 14.7794 22.8355 17.2618 21.2998 19.2374L29.1562 27.0938C29.7257 27.6633 29.7257 28.5867 29.1562 29.1562C28.5867 29.7257 27.6633 29.7257 27.0938 29.1562L19.2374 21.2998C17.2618 22.8355 14.7794 23.75 12.0833 23.75C5.64 23.75 0.416656 18.5267 0.416656 12.0834Z" fill="#EF5DA8"/>
-                </svg>
+                
+                <div class="search-icon">
+                    <input class="search-icon__input" placeholder="search ..."></input>
+        
+                    <div class="search-icon__wrapper">
+                        <div class="search-icon__glass"></div>
+                        <div class="search-icon__handle"></div>
+                    </div>
                 </div>
+            </div>
+                    
                 <div class="user-icon">
                     <svg width="28" height="28" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18 6.33335C14.7783 6.33335 12.1667 8.94503 12.1667 12.1667C12.1667 15.3883 14.7783 18 18 18C21.2217 18 23.8333 15.3883 23.8333 12.1667C23.8333 8.94503 21.2217 6.33335 18 6.33335ZM9.25 12.1667C9.25 7.3342 13.1675 3.41669 18 3.41669C22.8325 3.41669 26.75 7.3342 26.75 12.1667C26.75 16.9992 22.8325 20.9167 18 20.9167C13.1675 20.9167 9.25 16.9992 9.25 12.1667ZM12.1667 26.75C9.75042 26.75 7.79167 28.7088 7.79167 31.125C7.79167 31.9304 7.13875 32.5834 6.33333 32.5834C5.52792 32.5834 4.875 31.9304 4.875 31.125C4.875 27.0979 8.13959 23.8334 12.1667 23.8334H23.8333C27.8604 23.8334 31.125 27.0979 31.125 31.125C31.125 31.9304 30.4721 32.5834 29.6667 32.5834C28.8613 32.5834 28.2083 31.9304 28.2083 31.125C28.2083 28.7088 26.2496 26.75 23.8333 26.75H12.1667Z" fill="#EF5DA8"/>
@@ -102,8 +109,8 @@ header.append(`
 let isOpen = false
 let mainMenu = $('#main-menu')
 let togleMenuIpad = $('#toogle-menu-ipad')
-let searchIcon = $('#search-icon')
-let mobileSearch = $('#mobile-search')
+    // let searchIcon = $('#search-icon')
+    // let mobileSearch = $('#mobile-search')
 
 togleMenuIpad.click((event) => {
     // show menu
@@ -136,15 +143,12 @@ $(document).click((event) => {
     }
 })
 
-searchIcon.click(() => {
-    $('#search-input').show().css('display', 'flex');
-    searchIcon.hide();
-})
 
-mobileSearch.click(() => {
-    $('#search-input').show().css('display', 'flex');
-    mobileSearch.hide();
-})
+
+
+const searchIcon = document.querySelector(".search-icon__wrapper");
+
+searchIcon.addEventListener("click", e => searchIcon.parentElement.classList.toggle("open"))
 
 
 
