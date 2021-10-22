@@ -404,7 +404,6 @@ label {
 .shopping-cart {
     border-top: 1px solid #ececec;
     padding-top: 20px;
-    margin: 0 6%;
 }
 
 
@@ -661,6 +660,9 @@ div#cart-total {
     }
     .payment-method {
         margin-left: 16%;
+    }
+    .price-size {
+        min-height: 60px;
     }
 }
 
