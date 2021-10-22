@@ -240,7 +240,7 @@
     }
     
     .all-about-fit {
-        font-family: Alegreya;
+        font-family: Alata;
         font-size: 40px;
         line-height: 54px;
         text-align: center;
@@ -249,7 +249,7 @@
     }
     
     .recommendations {
-        font-family: Alegreya;
+        font-family: Alata;
         font-size: 19px;
         line-height: 26px;
         text-align: center;
@@ -275,7 +275,7 @@
     
     .blue-title {
         text-align: center;
-        font-family: Alegreya;
+        font-family: Alata;
         font-size: 18px;
         margin-top: 10%;
         cursor: pointer;
@@ -344,13 +344,13 @@
     
     .all-collections-title {
         margin-top: 16px;
-        font-family: Alegreya;
+        font-family: Alata;
         font-size: 25px;
         line-height: 34px;
     }
     
     .all-collections-des {
-        font-family: Alegreya;
+        font-family: Alata;
         font-size: 14px;
         /* font-style: italic; */
         line-height: 19px;
