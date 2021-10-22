@@ -312,12 +312,6 @@ img.basket {
     --icon-color: #ef5da8;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .search-icon {
     box-sizing: border-box;
     width: var(--icon-height);
@@ -437,12 +431,6 @@ img.basket {
 .search-icon.open .search-icon__handle::after {
     transition-delay: var(--transition-speed);
     transform: rotate(90deg);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .center {
