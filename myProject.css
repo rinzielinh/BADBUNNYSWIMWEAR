@@ -352,7 +352,6 @@
     .all-collections-des {
         font-family: Alata;
         font-size: 14px;
-        /* font-style: italic; */
         line-height: 19px;
     }
     
@@ -385,7 +384,7 @@
     
     .ship-title {
         margin-top: 50px;
-        font-family: Alegreya;
+        font-family: ;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;

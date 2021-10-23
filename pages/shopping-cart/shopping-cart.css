@@ -2,6 +2,15 @@ body {
     font-size: 1.45rem !important;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .btn-addToCart-suggest {
     padding: 20px 20%;
 }
